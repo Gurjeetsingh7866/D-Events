@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firestore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aboutus"></activity>
+        <activity android:name=".feebback_abotuus.feedback" />
+        <activity android:name=".notification.notification" />
+        <activity android:name=".chatwithinstudent_teacher.chatroom" />
+        <activity android:name=".chatwithinstudent_teacher.chatmain" />
+        <activity android:name=".fetchbyadd.showevents_students" />
+        <activity android:name=".teacher_create_club_only.create_event_of_teacher" />
+        <activity android:name=".create_event_of_teacher.create_event_teacherActivity" />
+        <activity android:name=".teacher_create_club_only.onlyteacher_club" />
+        <activity android:name=".fetchbyadd.techerclubkey" />
+        <activity android:name=".student_all_club.AllClub_studentActivity" />
+        <activity android:name=".teacherlogin" />
+        <activity android:name=".Teacherregister" />
+        <activity android:name=".teachernotification" />
+        <activity android:name=".teachermessage" />
+        <activity android:name=".teacher_create_club_only.teacherclub" />
+        <activity android:name=".teacherprofile" />
+        <activity android:name=".stud_messages" />
+        <activity android:name=".joinclub.stud_clubs" />
+        <activity
+            android:name=".LoginActivity"
+            android:label=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileActivity" />
+    </application>
+
+</manifest>

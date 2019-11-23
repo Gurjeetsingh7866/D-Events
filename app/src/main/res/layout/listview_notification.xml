@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="27dp"
+    app:cardElevation="16dp"
+    android:elevation="17dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/chat_groupname"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="29dp"
+                android:text="9 September"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FF9317E6"/>
+            <TextView
+                android:id="@+id/puchid_i_injoinclubs"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:visibility="gone"                >
+
+            </TextView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

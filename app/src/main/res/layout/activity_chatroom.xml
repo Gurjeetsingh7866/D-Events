@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/msg"
+        android:layout_height="match_parent"
+        tools:context=".chatwithinstudent_teacher.chatroom">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btn_send"
+            android:layout_alignRight="@+id/btn_send"
+            android:layout_alignEnd="@+id/btn_send">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView" />
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="-20dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/message" />
+
+    <EditText
+        android:id="@+id/msg_input"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btn_send"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/btn_send"
+        android:layout_toLeftOf="@+id/btn_send"
+        android:background="@drawable/edite"
+        android:textColor="#fff" />
+
+</RelativeLayout>
